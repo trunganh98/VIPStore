@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIPStore", "VIPStore\VIPStore.csproj", "{32BFE072-D3F4-4E90-A495-93AC5DDBE07E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BFE072-D3F4-4E90-A495-93AC5DDBE07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BFE072-D3F4-4E90-A495-93AC5DDBE07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BFE072-D3F4-4E90-A495-93AC5DDBE07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BFE072-D3F4-4E90-A495-93AC5DDBE07E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9E56E76-A4A3-46EE-A2F4-8C058F4CD80C}
+	EndGlobalSection
+EndGlobal
