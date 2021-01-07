@@ -11,29 +11,24 @@ namespace VIPStore.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index() => View();
+        
+        private IStoreRepository repository;
+        public int PageSize = 4;
 
-        //private readonly ILogger<HomeController> _logger;
+        public HomeController(IStoreRepository repo)
+        {
+            repository = repo;
+        }
 
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
+        //public IActionResult Index() => View(repository.Products);
 
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
-
-        //public IActionResult Privacy()
-        //{
-        //    return View();
-        //}
-
-        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        //public IActionResult Error()
-        //{
-        //    return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        //}
+        public ViewResult Index(int productPage = 1)
+            => View(repository.Products
+                .OrderBy(p => p.ProductID)
+            .Skip((productPage - 1)*PageSize)
+            .Take(PageSize)
+            );
+        
+        //localhost:5000/?productPage=2
     }
 }

@@ -39,7 +39,7 @@ namespace VIPStore
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage(); //
-                //app.UseStatusCodePages(); //Hien thi ma code loi
+                app.UseStatusCodePages(); //Hien thi ma code loi
                
             }
             else

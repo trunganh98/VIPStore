@@ -3,3 +3,20 @@
 }
 
 <h1>Welcome to VIPStore</h1>
+
+@*start here*@
+@model IQueryable<Product>
+
+<div class="row">
+    @foreach (var p in Model)
+    {
+        <div class="col-3">
+            <h3>
+                @p.Name
+            </h3>
+            <img src="@p.Image" alt="Alternate Text" width="260px" height="200px"/> <br />
+            @p.Description
+            <h4>@p.Price.ToString("c")</h4>
+        </div>
+    }
+</div>

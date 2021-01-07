@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5/yI/aIKLDSgEP82lp9WG6hlUHICUlQchfcBJO3P60d4Uqtq9GjdcfEV2oHHPeByujdt2FzZe+qL3aUs6oJRMw==",
+  "dgSpecHash": "H2/j4MgwP5vWJl8gdQIeWpSlxjLXAU2T1YL1YFRqM4zGk79TmLYeUswmSApELpQCd3de+i6uHbPQbj/aUh5gkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Documents\\GitHub\\VIPStore\\VIPStore\\VIPStore\\VIPStore.csproj",
+  "projectFilePath": "D:\\SEM3\\W\\VIPStore\\VIPStore\\VIPStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Documents\\GitHub\\VIPStore\\VIPStore\\VIPStore\\VIPStore.csproj": {}
+    "D:\\SEM3\\W\\VIPStore\\VIPStore\\VIPStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Documents\\GitHub\\VIPStore\\VIPStore\\VIPStore\\VIPStore.csproj": {
+    "D:\\SEM3\\W\\VIPStore\\VIPStore\\VIPStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\VIPStore\\VIPStore\\VIPStore\\VIPStore.csproj",
+        "projectUniqueName": "D:\\SEM3\\W\\VIPStore\\VIPStore\\VIPStore.csproj",
         "projectName": "VIPStore",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\VIPStore\\VIPStore\\VIPStore\\VIPStore.csproj",
+        "projectPath": "D:\\SEM3\\W\\VIPStore\\VIPStore\\VIPStore.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\VIPStore\\VIPStore\\VIPStore\\obj\\",
+        "outputPath": "D:\\SEM3\\W\\VIPStore\\VIPStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
