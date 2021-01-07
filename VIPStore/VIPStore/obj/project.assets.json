@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SEM3\\W\\VIPStore\\VIPStore\\VIPStore.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\VIPStore\\VIPStore\\VIPStore\\VIPStore.csproj",
       "projectName": "VIPStore",
-      "projectPath": "D:\\SEM3\\W\\VIPStore\\VIPStore\\VIPStore.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\VIPStore\\VIPStore\\VIPStore\\VIPStore.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\SEM3\\W\\VIPStore\\VIPStore\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\VIPStore\\VIPStore\\VIPStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
