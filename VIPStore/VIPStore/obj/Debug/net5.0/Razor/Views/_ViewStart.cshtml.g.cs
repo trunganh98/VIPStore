@@ -26,8 +26,15 @@ using VIPStore.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\SEM3\W\VIPStore\VIPStore\Views\_ViewImports.cshtml"
+using VIPStore.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6641489b9f8490c531043b7fb6ba011eaf6d83fd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0a6cf8215d8a3b9c3a3e635822a05531cd048b95", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

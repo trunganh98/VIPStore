@@ -26,8 +26,15 @@ using VIPStore.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\SEM3\W\VIPStore\VIPStore\Views\_ViewImports.cshtml"
+using VIPStore.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6a5625cc8fb4476f348b0fe9041c550465d8bf9", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6641489b9f8490c531043b7fb6ba011eaf6d83fd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0a6cf8215d8a3b9c3a3e635822a05531cd048b95", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

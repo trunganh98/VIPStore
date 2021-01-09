@@ -5,18 +5,22 @@
 <h1>Welcome to VIPStore</h1>
 
 @*start here*@
-@model IQueryable<Product>
+@model ProductListViewModel
 
 <div class="row">
-    @foreach (var p in Model)
+    @foreach (var p in Model.Products)
     {
+        @*<partial name="ProductSunnary" model="p"/>*@
+
         <div class="col-3">
             <h3>
                 @p.Name
             </h3>
-            <img src="@p.Image" alt="Alternate Text" width="260px" height="200px"/> <br />
+            <img src="@p.Image" alt="Alternate Text" width="270px" height="200px"/> <br />
             @p.Description
             <h4>@p.Price.ToString("c")</h4>
         </div>
     }
 </div>
+
+<div page-model="@Model.PagingInfo" page-action="Index" class="text-xl-center border-dark font-weight-bold" ></div>

@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using VIPStore.Models;
+using VIPStore.Models.ViewModels;
 
 namespace VIPStore.Controllers
 {
@@ -23,12 +24,20 @@ namespace VIPStore.Controllers
         //public IActionResult Index() => View(repository.Products);
 
         public ViewResult Index(int productPage = 1)
-            => View(repository.Products
-                .OrderBy(p => p.ProductID)
-            .Skip((productPage - 1)*PageSize)
-            .Take(PageSize)
-            );
-        
-        //localhost:5000/?productPage=2
+            => View(new ProductListViewModel
+            {
+                Products = repository.Products
+                    .OrderBy(p => p.ProductID)
+                    .Skip((productPage - 1) * PageSize)
+                    .Take(PageSize),
+                PagingInfo = new PagingInfo
+                {
+                    CurrentPage = productPage,
+                    IteamsPerPage = PageSize,
+                    TotalIteams = repository.Products.Count()
+                }
+            });
     }
+                     
+        //localhost:5000/?productPage=2
 }
