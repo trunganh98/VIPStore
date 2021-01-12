@@ -27,7 +27,7 @@ namespace VIPStore.Models
                        Description = " Action, Adventure, Humor",
                        Category = "Japan",
                        Price = 500,
-                       Image = "Image/Naruto.jpg"
+                       UrlImage = "Naruto.jpg"
                    },
                     new Product
                     {
@@ -35,7 +35,7 @@ namespace VIPStore.Models
                         Description = "Action, Adventure, Humor",
                         Category = "Japan",
                         Price = 475,
-                        Image = "Image/OnePiece.jpg"
+                        UrlImage = "OnePiece.jpg"
                     },
                     new Product
                     {
@@ -43,7 +43,7 @@ namespace VIPStore.Models
                         Description = " Action, Martial Arts, Fairy",
                         Category = "China",
                         Price = 400,
-                        Image = "Image/Dldl.jpg"
+                        UrlImage = "Dldl.jpg"
                     },
                     new Product
                     {
@@ -51,7 +51,7 @@ namespace VIPStore.Models
                         Description = "Action, Martial Arts, Fairy",
                         Category = "China",
                         Price = 375,
-                        Image = "Image/Pntt.jpg"
+                        UrlImage = "Pntt.jpg"
                     },
                     new Product
                     {
@@ -59,7 +59,7 @@ namespace VIPStore.Models
                         Description = "Action, Fiction",
                         Category = "USA",
                         Price = 425,
-                        Image = "Image/WonderWoman.jpg"
+                        UrlImage = "WonderWoman.jpg"
                     },
                     new Product
                     {
@@ -67,7 +67,7 @@ namespace VIPStore.Models
                         Description = "Action, Fiction",
                         Category = "USA",
                         Price = 475,
-                        Image = "Image/Aquaman.jpg"
+                        UrlImage = "Aquaman.jpg"
                     },
                     new Product
                     {
@@ -75,7 +75,7 @@ namespace VIPStore.Models
                         Description = " Action, Adventure, Humor",
                         Category = "Japan",
                         Price = 480,
-                        Image = "Image/FairyTail.jpg"
+                        UrlImage = "FairyTail.jpg"
                     },
                     new Product
                     {
@@ -83,7 +83,7 @@ namespace VIPStore.Models
                         Description = " Action, Adventure, Humor",
                         Category = "Japan",
                         Price = 500,
-                        Image = "Image/OnePunchMan.jpg"
+                        UrlImage = "OnePunchMan.jpg"
                     },
                     new Product
                     {
@@ -91,7 +91,7 @@ namespace VIPStore.Models
                         Description = "Action, Fiction",
                         Category = "USA",
                         Price = 520,
-                        Image = "Image/AvengersEndgame.jpg"
+                        UrlImage = "AvengersEndgame.jpg"
                     },
                     new Product
                     {
@@ -99,15 +99,15 @@ namespace VIPStore.Models
                         Description = "Action, Fiction",
                         Category = "USA",
                         Price = 485,
-                        Image = "Image/IronMan.jpg"
+                        UrlImage = "IronMan.jpg"
                     },
                     new Product
                     {
-                        Name = "Đấu Phá thương khung",
+                        Name = "ĐP thương khung",
                         Description = " Action, Martial Arts, Fairy",
                         Category = "China",
                         Price = 450,
-                        Image = "Image/Dptk.jpg"
+                        UrlImage = "Dptk.jpg"
                     },
                     new Product
                     {
@@ -115,7 +115,7 @@ namespace VIPStore.Models
                         Description = " Action, Martial Arts, Fairy",
                         Category = "Japan",
                         Price = 495,
-                        Image = "Image/SwordArtOnline.jpg"
+                        UrlImage = "SwordArtOnline.jpg"
                     }
                     );
                 context.SaveChanges();

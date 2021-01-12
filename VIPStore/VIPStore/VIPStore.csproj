@@ -5,21 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\Image\Aquaman.jpg" />
-    <None Include="wwwroot\Image\AvengersEndgame.jpg" />
-    <None Include="wwwroot\Image\Dldl.jpg" />
-    <None Include="wwwroot\Image\Dptk.jpg" />
-    <None Include="wwwroot\Image\FairyTail.jpg" />
-    <None Include="wwwroot\Image\IronMan.jpg" />
-    <None Include="wwwroot\Image\Naruto.jpg" />
-    <None Include="wwwroot\Image\OnePiece.jpg" />
-    <None Include="wwwroot\Image\OnePunchMan.jpg" />
-    <None Include="wwwroot\Image\Pntt.jpg" />
-    <None Include="wwwroot\Image\SwordArtOnline.jpg" />
-    <None Include="wwwroot\Image\WonderWoman.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
