@@ -58,9 +58,8 @@ namespace VIPStore
             app.UseEndpoints(endpoints =>
             {
                 
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute("pagination",
+                    "Products/Page{productPage}", new { Controller = "Home", acction = "Index"} );
 
                 endpoints.MapDefaultControllerRoute();
             });
