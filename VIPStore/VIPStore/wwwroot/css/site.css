@@ -61,6 +61,8 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  /*background-image: url(../Image/hinh-nen-anime-cho-may-tinh-1-1.jpg);
+  background-repeat: no-repeat;*/
 }
 .footer {
   position: absolute;
@@ -69,3 +71,4 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
