@@ -14,7 +14,7 @@ namespace VIPStore.Controllers
     {
         
         private IStoreRepository repository;
-        public int PageSize = 4;
+        public int PageSize = 8;
 
         public HomeController(IStoreRepository repo)
         {
@@ -23,10 +23,11 @@ namespace VIPStore.Controllers
 
         //public IActionResult Index() => View(repository.Products);
 
-        public ViewResult Index(int productPage = 1)
+        public ViewResult Index(string category , int productPage = 1)
             => View(new ProductListViewModel
             {
                 Products = repository.Products
+                    .Where(p => category == null || p.Category == category)
                     .OrderBy(p => p.ProductID)
                     .Skip((productPage - 1) * PageSize)
                     .Take(PageSize),
