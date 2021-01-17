@@ -38,7 +38,18 @@ namespace VIPStore.Controllers
                     TotalIteams = repository.Products.Count()
                 }
             });
+
+        public IActionResult Details()
+        {
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
     }
+
                      
         //localhost:5000/?productPage=2
 }

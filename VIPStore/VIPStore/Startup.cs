@@ -76,7 +76,6 @@ namespace VIPStore
                 endpoints.MapDefaultControllerRoute();
             });
 
-            
             SeedData.EnsurePopulated(app);
         }
     }
