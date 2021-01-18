@@ -15,6 +15,7 @@ namespace VIPStore.Controllers
         
         private IStoreRepository repository;
         public int PageSize = 8;
+        public int Pagesize = 1;
 
         public HomeController(IStoreRepository repo)
         {
@@ -39,17 +40,27 @@ namespace VIPStore.Controllers
                 }
             });
 
-        public IActionResult Details()
-        {
-            return View();
-        }
+        public ViewResult Details( int productPage = 1)
+            => View(new ProductListViewModel
+            {
+                Products = repository.Products
+                    
+                    .OrderBy(d => d.ProductID)
+                    .Skip((productPage - 1) * Pagesize)
+                    .Take(Pagesize),
+                PagingInfo = new PagingInfo
+                {
+                    CurrentPage = productPage,
+                    IteamsPerPage = Pagesize,
+                    TotalIteams = repository.Products.Count()
+                }
+            });
 
         public IActionResult Privacy()
         {
             return View();
         }
     }
-
                      
         //localhost:5000/?productPage=2
 }

@@ -57,17 +57,17 @@ namespace VIPStore
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    "category", "{category}/Page{productPage:int}",
-                    new { Controller = "Home", action = "Index",});
+                //endpoints.MapControllerRoute(
+                //    "categorys", "{category}/Page{productPage:int}",
+                //    new { Controller = "Home", action = "Index",});
 
                 endpoints.MapControllerRoute(
                     "page", "Page{productPage:int}",
                     new { Controller = "Home", action = "Index", productPage = 1 });
 
                 endpoints.MapControllerRoute(
-                    "category", "{category}",
-                    new { Controller = "Home", action = "Index", productPage = 1 });
+                   "category", "{category}",
+                   new { Controller = "Home", action = "Index", productPage = 1 });
 
                 endpoints.MapControllerRoute(
                     "pagination", "Products/Page{productPage}",
